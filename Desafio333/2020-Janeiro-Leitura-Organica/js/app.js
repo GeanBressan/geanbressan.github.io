@@ -52,7 +52,7 @@ function encerrarTeste() {
     document.getElementById('sendEmail').className = 'modal-body input-group mb-3 mt-2';
     document.getElementById('refazerTeste').className = 'btn btn-warning';
     document.getElementById('shareTW').className = 'btn';
-    document.getElementById('twitter-share-btt').href = 'https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href) + '&text=Meu PPM e de ' + Math.floor(ppm) + ' faça o teste e descubra ja o seu.';
+    document.getElementById('twitter-share-btt').href = 'https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href) + '&text=Meu PPM e de ' + Math.floor(ppm) + ' faça o teste e descubra já o seu.';
 
     clearInterval(interval1);
 }
